@@ -1,0 +1,5 @@
+ToDo
+Create a chat service
+Create a place for people to talk over forums
+Create log in abilities and enable people to register
+Create a way for people to make profiles
