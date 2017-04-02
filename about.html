@@ -1,31 +1,41 @@
 <ion-header>
 <ion-navbar>
     <ion-title>
-      Profiles
+      My Profile
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-
 <ion-content padding>
-
-
   <ion-item>
     <ion-avatar item-left>
-      <img src="http://68.media.tumblr.com/4996f58e600f03ec2c6181e3899f4d3f/tumblr_mje2p6zRcx1rx06nvo1_500.jpg" alt="Ada Lovelace">
+      <img src="http://68.media.tumblr.com/4996f58e600f03ec2c6181e3899f4d3f/tumblr_mje2p6zRcx1rx06nvo1_500.jpg" alt="Ada Lovelace" style="width:45px; height:45px;">
     </ion-avatar>
-    <h2>Ada Lovelace</h2>
+    <h2 style="font-size:16px;">Ada Lovelace</h2> 
 	<button ion-button round>CS</button>
-	<button ion-button round>Math</button>
-	<button ion-button round>Sci</button>
-	<button ion-button round>tech</button>
+	<button ion-button round>MATH</button>
+	<button ion-button round>SCI</button>
+	<button ion-button round>TECH</button>
     </ion-item>
-
-
-
- 
+	
   <ion-list>
     <i><p style=" font-family:open sans; font-size:14px;"> Your Average Computer Science Pioneer</p></i>
+	<ion-list>
+  <ion-item>
+    <ion-label>Occupation</ion-label>
+    <ion-select [(ngModel)]="occupation">
+      <ion-option value="stu">Student</ion-option>
+      <ion-option value="sci">Scientist</ion-option>
+      <ion-option value="eng">Engineer</ion-option>
+      <ion-option value="math">Mathematician</ion-option>
+      <ion-option value="tech">Technician</ion-option>
+      <ion-option value="tch">Teacher</ion-option>
+	  <ion-option value="art">Artist</ion-option>
+	  <ion-option value="othr">Other</ion-option>
+    </ion-select>
+  </ion-item>
+</ion-list>
+
   <ion-item>
     <ion-label color="primary">Experience</ion-label>
     <ion-input></ion-input>
@@ -40,22 +50,14 @@
     <ion-label color="primary">Interests</ion-label>
     <ion-input></ion-input>
   </ion-item>
-  <ion-item>
-    <ion-label color="dark">Education</ion-label>
-    <ion-input></ion-input>
-  </ion-item>
-
 <ion-item>
-  <ion-label>Online</ion-label>
-  <ion-toggle color="primary"></ion-toggle>
+  <ion-label color="dark">Online</ion-label>
+  <ion-toggle color="secondary"></ion-toggle>
 </ion-item>
 
-
-
-  
+<button ion-button round item-right clear>Edit Profile</button>
   
   </ion-list>
-
  </ion-content>
 
 
