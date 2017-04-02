@@ -1,0 +1,64 @@
+body{
+	font: 14  Tahoma;
+	color: #000000;
+	text-align: left;
+	padding-bottom: 20;
+	padding-top: 20;
+	padding-left: 15;
+	padding-right: 15;
+}
+form, p, span {
+	margin:0;
+	padding: 5;
+}
+input{
+	font:14 Tahoma;
+	color: #000000;
+}
+a{
+	color:#00cc00;
+	text-decoration: none;
+}
+a-hover{
+	color:#339933;
+	text-decoration: none;
+}
+#start, #loginform{
+	padding: 15 ;
+	background: #ccffff;
+	width: 1334;
+	border: 2px solid #99ffff;
+}
+#loginform{
+	padding-top: 10;
+}
+#loginform p{
+	margin:5;
+}
+#chat{
+	text-align: left;
+	margin: 0 auto;
+	margin-bottom: 25;
+	padding: 10;
+	background: #fff;
+	overflow:auto;
+	border: 2px solid #99ffff;
+}
+#mesg{
+	border: 2px solid #99ffff;
+}
+#submit{
+	width: 60;
+}
+.error{
+	color:#ff0000;
+}
+#menu{
+	padding: 25px 12.5px 25px 12.5px}
+}
+.Hey{
+	float:left;
+}
+.exit{
+	float:right;
+}
